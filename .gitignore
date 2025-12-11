@@ -1,0 +1,43 @@
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Variables de entorno (IMPORTANTE: no subir contraseñas)
+.env
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build
+dist/
+build/
+frontend/dist/
+frontend/build/
+
+# Testing
+coverage/
+
+# Temporales
+tmp/
+temp/
